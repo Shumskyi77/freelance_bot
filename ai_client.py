@@ -101,7 +101,7 @@ def _extract_json(text: str) -> dict:
 
 def score_offer(offer: dict, github_profile: str) -> dict:
     """Прогон 1: подходит ли оффер + мелкий ли он. Возвращает {score, reason, is_small}."""
-    system = FILTER_SYSTEM.format(github_profile=github_profile)
+    system = FILTER_SYSTEM.replace("{github_profile}", github_profile)
     user = (
         f"Название: {offer.get('title','')}\n"
         f"Бюджет: {offer.get('budget','')}\n"
@@ -141,7 +141,7 @@ PROPOSAL_SYSTEM = """Ты — Taras Szumski, фрилансер (Python / Telegr
 
 def generate_proposal(offer: dict, github_profile: str, score_info: dict | None = None) -> str:
     """Прогон 2: генерирует готовый текст отклика PL + EN (почему брать именно меня)."""
-    system = PROPOSAL_SYSTEM.format(github_profile=github_profile)
+    system = PROPOSAL_SYSTEM.replace("{github_profile}", github_profile)
     hint = ""
     if score_info:
         hint = f"\nПочему оффер подошёл (для контекста, не копируй дословно): {score_info.get('reason','')}"
