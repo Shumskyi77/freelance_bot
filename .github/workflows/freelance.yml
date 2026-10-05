@@ -1,0 +1,48 @@
+name: freelance-monitor
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # каждые 10 минут
+  workflow_dispatch: {}       # ручной запуск кнопкой
+
+permissions:
+  contents: write
+
+concurrency:
+  group: freelance-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GITHUB_USERNAME: Shumskyi77
+          MAX_NEW_PER_RUN: "15"
+          MIN_SCORE: "6"
+        run: python main.py
+
+      - name: Save seen.json (чтобы помнить что уже видели)
+        run: |
+          git config user.name "freelance-bot"
+          git config user.email "freelance-bot@users.noreply.github.com"
+          git add seen.json || true
+          git diff --cached --quiet || git commit -m "update seen.json [skip ci]" || true
+          git push || true
