@@ -57,7 +57,7 @@ python main.py
 
 ## Файлы
 - `main.py` — оркестратор
-- `freelance_parser.py` — парсинг листингов + полных описаний (JSON-LD + fallback)
+- `freelance_parser.py` — официальный RSS `freelancehunt.com/pl/projects.rss` + фильтр по 20 skill-категориям Programowanie (HTML-страницы с IP дата-центров отдают 403, поэтому RSS; полный текст оффера — по ссылке в сообщении)
 - `github_profile.py` — живой fetch `api.github.com/users/Shumskyi77/repos` + фолбэк
 - `ai_client.py` — 2 прогона через diffusiongemma (фильтр + отклик PL/EN)
 - `telegram_sender.py` — отправка с разбивкой 4000 символов

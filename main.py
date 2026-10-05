@@ -1,11 +1,11 @@
-"""Оркестратор: парсинг Programowanie -> новые за 10 мин -> AI фильтр (мелкие) -> AI отклик -> Telegram."""
+"""Оркестратор: RSS Programowanie -> новые за 10 мин -> AI фильтр (мелкие) -> AI отклик -> Telegram."""
 import json
 import os
 import time
 import traceback
 
 import config
-from freelance_parser import scrape_all_programowanie, parse_project_page
+from freelance_parser import scrape_all_programowanie
 from github_profile import fetch_github_profile
 from ai_client import score_offer, generate_proposal
 from telegram_sender import send_message, format_offer
@@ -60,17 +60,9 @@ def main():
         save_seen(seen)
         return
 
-    # Детализация: полный title+description для AI
-    detailed: list[dict] = []
-    for item in fresh_listings:
-        try:
-            full = parse_project_page(item["url"])
-            full["category"] = item.get("category", "")
-            detailed.append(full)
-            time.sleep(0.5)
-        except Exception as e:
-            print(f"[WARN] detail failed {item['id']}: {e}")
-
+    # RSS уже даёт title + snippet описания + бюджет + категории — отдельные
+    # страницы проектов не тянем (с IP дата-центров они отдают 403).
+    detailed = fresh_listings
     sent = 0
     processed_ids: set[str] = set()
     for offer in detailed:

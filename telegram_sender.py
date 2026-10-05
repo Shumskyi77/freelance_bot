@@ -65,7 +65,7 @@ def format_offer(offer: dict, score: dict, proposal: str) -> str:
         f"💰 {budget} | 📂 {cat}\n"
         f"⭐ Score: <b>{sc}/10</b> — {reason}\n"
         f"🔗 {url}\n\n"
-        f"<b>Опис:</b>\n{desc}…\n\n"
+        f"<b>Опис (фрагмент):</b>\n{desc}…\n\n"
         f"<b>✉️ Готовий відгук (PL + EN) — копіюй на FreelanceHunt:</b>\n"
         f"<pre>{prop}</pre>"
     )
