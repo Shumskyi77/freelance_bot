@@ -1,12 +1,4 @@
 {
-  "1660653": {
-    "ts": 1792853244.6675057,
-    "url": "https://freelancehunt.com/pl/project/sozdanie-chat-bota-cherez-manychat/1660653.html"
-  },
-  "1660631": {
-    "ts": 1792841270.65294,
-    "url": "https://freelancehunt.com/pl/project/python-computer-vision-developer/1660631.html"
-  },
   "1660710": {
     "ts": 1792880344.8752158,
     "url": "https://freelancehunt.com/pl/project/yakisniy-parsing-danih/1660710.html"
@@ -27,17 +19,9 @@
     "ts": 1792921742.7268276,
     "url": "https://freelancehunt.com/pl/project/bot-dlya-ferm-pid-klyuch-viking/1660792.html"
   },
-  "1660828": {
-    "ts": 1792841270.6529133,
-    "url": "https://freelancehunt.com/pl/project/gra-pro-metro/1660828.html"
-  },
   "1660827": {
     "ts": 1792949773.7847764,
     "url": "https://freelancehunt.com/pl/project/integratsiya-ta-deploy-lendingu-dlya-paideia/1660827.html"
-  },
-  "1660826": {
-    "ts": 1792841270.652926,
-    "url": "https://freelancehunt.com/pl/project/integratsiya-ta-deploy-lendingu-dlya-paideia/1660826.html"
   },
   "1660821": {
     "ts": 1792949773.7847776,
@@ -340,7 +324,7 @@
     "url": "https://freelancehunt.com/pl/project/pochinit-phpmailer-dlyi-otpravki-pisem-na/1661867.html"
   },
   "1661990": {
-    "ts": 1793436694.9679139,
+    "ts": 1793459520.4954813,
     "url": "https://freelancehunt.com/pl/project/rozrobka-ta-integratsiya-plavayuchogo-vidzheta-zv-yazku/1661990.html"
   },
   "1661903": {
@@ -364,23 +348,35 @@
     "url": "https://freelancehunt.com/pl/project/travel-ii-konsultatsiya-soprovozhdenie/1661884.html"
   },
   "1662023": {
-    "ts": 1793436694.9679117,
+    "ts": 1793459520.4954777,
     "url": "https://freelancehunt.com/pl/project/meta-developers-marketing-api/1662023.html"
   },
   "1662007": {
-    "ts": 1793436694.9679122,
+    "ts": 1793459520.4954789,
     "url": "https://freelancehunt.com/pl/project/razmeschenie-gotovogo-sayta-na-cloudflare-workers/1662007.html"
   },
   "1662004": {
-    "ts": 1793436694.9679127,
+    "ts": 1793459520.4954796,
     "url": "https://freelancehunt.com/pl/project/nalashtuvannya-vivantazhennya-bas-maliy-biznes/1662004.html"
   },
   "1662002": {
-    "ts": 1793436694.9679132,
+    "ts": 1793459520.4954805,
     "url": "https://freelancehunt.com/pl/project/rozrobka-landing-page-ta-telegram-bota-dlya/1662002.html"
   },
   "1662027": {
-    "ts": 1793436694.9679103,
+    "ts": 1793459520.4954727,
     "url": "https://freelancehunt.com/pl/project/stvorennya-saytu-na-wordpress/1662027.html"
+  },
+  "1662089": {
+    "ts": 1793459520.4954698,
+    "url": "https://freelancehunt.com/pl/project/proverit-bezopasnost-sayta-openkart/1662089.html"
+  },
+  "1662080": {
+    "ts": 1793459520.495471,
+    "url": "https://freelancehunt.com/pl/project/ai-agent-konsultant-dlya-internet-magazinu/1662080.html"
+  },
+  "1662044": {
+    "ts": 1793459520.4954717,
+    "url": "https://freelancehunt.com/pl/project/nastroyka-vnedrenie-agenta/1662044.html"
   }
 }
