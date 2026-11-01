@@ -1,12 +1,4 @@
 {
-  "1660827": {
-    "ts": 1792949773.7847764,
-    "url": "https://freelancehunt.com/pl/project/integratsiya-ta-deploy-lendingu-dlya-paideia/1660827.html"
-  },
-  "1660821": {
-    "ts": 1792949773.7847776,
-    "url": "https://freelancehunt.com/pl/project/razmeschenie-deploy-landing-page/1660821.html"
-  },
   "1660864": {
     "ts": 1792975033.0873268,
     "url": "https://freelancehunt.com/pl/project/zbagachennya-ta-segmentatsiya-bazi-lidiv/1660864.html"
@@ -336,11 +328,11 @@
     "url": "https://freelancehunt.com/pl/project/stvorennya-saytu-na-wordpress/1662027.html"
   },
   "1662089": {
-    "ts": 1793545645.385837,
+    "ts": 1793561927.3526325,
     "url": "https://freelancehunt.com/pl/project/proverit-bezopasnost-sayta-openkart/1662089.html"
   },
   "1662080": {
-    "ts": 1793545645.385838,
+    "ts": 1793561927.3526342,
     "url": "https://freelancehunt.com/pl/project/ai-agent-konsultant-dlya-internet-magazinu/1662080.html"
   },
   "1662044": {
@@ -352,7 +344,7 @@
     "url": "https://freelancehunt.com/pl/project/igra/1662099.html"
   },
   "1662096": {
-    "ts": 1793545645.385836,
+    "ts": 1793561927.3526313,
     "url": "https://freelancehunt.com/pl/project/stvorennya-saytu-dlya-stomatologiyi/1662096.html"
   },
   "1662127": {
@@ -364,19 +356,35 @@
     "url": "https://freelancehunt.com/pl/project/ai-python-rozrobnik-tehnichniy-partner-startap/1662138.html"
   },
   "1662185": {
-    "ts": 1793545645.3858275,
+    "ts": 1793561927.3526278,
     "url": "https://freelancehunt.com/pl/project/klinap-kompoziting-rotoskoping/1662185.html"
   },
   "1662170": {
-    "ts": 1793545645.3858294,
+    "ts": 1793561927.3526287,
     "url": "https://freelancehunt.com/pl/project/sayt-vizitka/1662170.html"
   },
   "1662163": {
-    "ts": 1793545645.3858302,
+    "ts": 1793561927.3526294,
     "url": "https://freelancehunt.com/pl/project/pirat/1662163.html"
   },
   "1662155": {
-    "ts": 1793545645.3858345,
+    "ts": 1793561927.3526306,
     "url": "https://freelancehunt.com/pl/project/nalashtuvati-razom-gugl-miti-konversiyi/1662155.html"
+  },
+  "1662223": {
+    "ts": 1793561927.3526201,
+    "url": "https://freelancehunt.com/pl/project/potribno-navaybkoditi-odnu-avtomatizatsiyu/1662223.html"
+  },
+  "1662212": {
+    "ts": 1793561927.3526213,
+    "url": "https://freelancehunt.com/pl/project/rozmistiti-modul-importu-eksportu-tovariv/1662212.html"
+  },
+  "1662207": {
+    "ts": 1793561927.3526218,
+    "url": "https://freelancehunt.com/pl/project/chas-konsultatsii-po-rabote/1662207.html"
+  },
+  "1662194": {
+    "ts": 1793561927.3526263,
+    "url": "https://freelancehunt.com/pl/project/dorabotka-interaktivnogo-prototipa-marketpleysa-na-next-js/1662194.html"
   }
 }
