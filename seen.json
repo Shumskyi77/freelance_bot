@@ -1,12 +1,4 @@
 {
-  "1664049": {
-    "ts": 1794420545.5189655,
-    "url": "https://freelancehunt.com/pl/project/parsing-tochok-google-business/1664049.html"
-  },
-  "1664047": {
-    "ts": 1794420545.5189686,
-    "url": "https://freelancehunt.com/pl/project/internet-magazin-na-wordpress-woocommerce/1664047.html"
-  },
   "1664168": {
     "ts": 1794469678.0062711,
     "url": "https://freelancehunt.com/pl/project/fullstack-dev-needed-stabilize-and/1664168.html"
@@ -22,10 +14,6 @@
   "1664134": {
     "ts": 1794469678.0062742,
     "url": "https://freelancehunt.com/pl/project/rekruting-poisk-it-spetsialistov/1664134.html"
-  },
-  "1664099": {
-    "ts": 1794420545.5189633,
-    "url": "https://freelancehunt.com/pl/project/parser-tablitsyi-tableau-com-ezhemesyachnyim-obnovleniem/1664099.html"
   },
   "1664215": {
     "ts": 1794469678.0062642,
@@ -328,15 +316,15 @@
     "url": "https://freelancehunt.com/pl/project/bot-dlya-zarabotka-na-seo-fast/1665362.html"
   },
   "1665358": {
-    "ts": 1795019990.5478306,
+    "ts": 1795043382.8232346,
     "url": "https://freelancehunt.com/pl/project/razrabotka-crm-sistemyi-graficheskim-redaktorom-dlya/1665358.html"
   },
   "1665348": {
-    "ts": 1795019990.5478323,
+    "ts": 1795043382.8232412,
     "url": "https://freelancehunt.com/pl/project/redizayn-storinok-vebsaytu-na-wordpress/1665348.html"
   },
   "1665332": {
-    "ts": 1795019990.5478337,
+    "ts": 1795043382.8232427,
     "url": "https://freelancehunt.com/pl/project/bot-samodzielnej-obslugi-standardowych-spraw/1665332.html"
   },
   "1665316": {
@@ -346,5 +334,17 @@
   "1665306": {
     "ts": 1795019990.547835,
     "url": "https://freelancehunt.com/pl/project/ai-zastosunok/1665306.html"
+  },
+  "1665454": {
+    "ts": 1795043382.823229,
+    "url": "https://freelancehunt.com/pl/project/sdelat-bota-dlya-tg-kanala/1665454.html"
+  },
+  "1665427": {
+    "ts": 1795043382.823232,
+    "url": "https://freelancehunt.com/pl/project/rozrobka-telegram-bota-dlya-organizatsiyi-ta-planuvannya/1665427.html"
+  },
+  "1665409": {
+    "ts": 1795043382.8232324,
+    "url": "https://freelancehunt.com/pl/project/obsluga-strony-sklepu-internetowego/1665409.html"
   }
 }
